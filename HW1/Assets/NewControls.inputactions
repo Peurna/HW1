@@ -1,0 +1,94 @@
+{
+    "name": "NewControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "71015747-b752-4b97-8b59-9f44433b5e40",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "4e08555e-a828-4600-8bd4-a29b72f54cfa",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LightOff",
+                    "type": "Button",
+                    "id": "dcf3b12e-7ea8-46f9-9f82-0ebacd7849f0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LightOn",
+                    "type": "Button",
+                    "id": "c4c59e95-21fb-4904-8be0-fcab7b4a355e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TP",
+                    "type": "Button",
+                    "id": "369c25d6-9df1-4837-b40e-896c2e94b620",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "28aa73eb-ea78-447d-ad95-42c9d6e51195",
+                    "path": "<XRController>{LeftHand}/joystickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8da8baf4-c1f2-4fdf-8a47-0ddb8b4efe25",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightOff",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10b4e19b-6801-433a-9e2a-851e21584994",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightOn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b79f66b2-f160-4815-b4c5-32c69f7751ff",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
